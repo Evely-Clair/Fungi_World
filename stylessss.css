@@ -7,13 +7,9 @@ body {
 
 h1 {font-family: 'Mulish', sans-serif;text-align:center ;
     color:rgb(193, 236, 187)}
-p  {font-size: 'Quicksand', sans-serif;
-    color: rgb(193, 236, 187);
-    text-align:justify;
-}
 a {
     text-decoration: none;
-    color: rgb(45, 66, 43);
+    color: rgb(8, 100, 0);
 }
 
 .head {
@@ -26,23 +22,6 @@ a {
 
 }
 
-
-.nav {
-background-color: rgb(193, 236, 187); 
-list-style-type: none;
-text-align: center;
-margin: 0px;
-margin-right: 50px;
-margin-left: 50px;
-padding: 0px;
-}
-
-.nav li {
-display:inline-block;
-font-family: 'Quicksand', sans-serif;
-font-size: 20px;
-padding: 20px;
-} 
 
 .paragraph {
     color:rgb(193, 236, 187);
@@ -58,6 +37,29 @@ padding: 20px;
     text-align: justify;
     background-color:rgb(22, 49, 21);
 }
+
+.topnav {
+    overflow: hidden;
+    margin-right: 50px;
+    margin-left: 50px;
+    background-color:rgb(193, 236, 187);
+  }
+  
+  .topnav a {
+    float: left;
+    color: rgb(3, 82, 0);
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+    font-family: 'Mulish', sans-serif;
+    font-size: 20px;
+  }
+  
+  .topnav a:hover {
+    transition: all 0.3s ease-in;
+    background-color: rgb(164, 224, 156);
+    color: rgb(0, 88, 22);
+  }
 
 #naosei {
     text-align: left;
