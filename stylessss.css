@@ -2,25 +2,20 @@ body {
     background-color: rgb(45, 66, 43);
     color: rgb(45, 66, 43);
     background-image: url(comun.jpg);
+    }
 
-}
 
-h1 {font-family: 'Mulish', sans-serif;text-align:center ;
-    color:rgb(193, 236, 187)}
-a {
-    text-decoration: none;
-    color: rgb(8, 100, 0);
-}
+
 
 .head {
     background-color:rgb(33, 80, 32);
-    color:rgb(250, 191, 136);
+    color:rgb(193, 236, 187);
     margin: 50px;
     margin-bottom: 0px;
     padding:10px;
     text-align: center;
-
-}
+    font-family: 'Mulish', sans-serif;
+    }
 
 
 .paragraph {
@@ -36,7 +31,7 @@ a {
     font-family:'Quicksand', sans-serif;
     text-align: justify;
     background-color:rgb(22, 49, 21);
-}
+    }
 
 .topnav {
     overflow: hidden;
@@ -63,12 +58,12 @@ a {
     color: rgb(0, 88, 22);
   }
 
-#naosei {
+#fundodatela {
     text-align: left;
     height: 200px;
     width: 230px;
     margin: 5PX;
-}
+    }
 
 #imagem {
     text-align: right;
